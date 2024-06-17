@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.load{
+    background-color: red;
+    width:100vw;
+    height: 2px;
+    animation: load 2s ease-in-out  1 ;
+}
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: aqua;
+   display: flex;
+    align-items: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;  
+    padding: 0px 27px; 
+    align-items: center;
+  ;
+ 
+}
+nav ul li{
+    list-style: none;
+   
+}
+nav ul{
+    display: flex;
+   
+}
+.about{
+    background-color: aquamarine;
+    width: 100vw;
+    height:calc(100vh - 50px - 40px);
+    font-family: 'Agdasima', sans-serif;
+    font-size: 50px;
+}
+
+
+.foot{
+    background-color: aqua;
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot p{
+    font-size: xx-large;
+    font-weight: 300;
+    font-family: 'Agdasima', sans-serif;
+}
+@keyframes load {
+    0%{
+        width: 0;
+    }
+    50%{
+        width: 60vw;
+    }
+    100%{
+        width:100vw;
+    }
+}
